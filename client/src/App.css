@@ -1,0 +1,115 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+/*  =====  */
+.space{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.center-align{
+  text-align: center;
+}
+.search_container{
+  padding-bottom: 20px;
+}
+.filter{
+  padding-left: 0;
+}
+#dropdownMenuButton{
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.dropdown-caret {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  margin: 5px;
+  vertical-align: middle;
+  content: "";
+  border-top-style: solid;
+  border-top-width: 4px;
+  border-right: 4px solid transparent;
+  border-bottom: 0 solid transparent;
+  border-left: 4px solid transparent;
+}
+.Cnumbers{
+  background-color: rgb(211, 211, 218);
+  border-radius: 45%;
+  padding: 1px 6px;
+  font-size: 12px;
+  
+}
+.title{
+  padding: 5px 10px;
+}
+.pid{
+  padding: 0 10px;
+}
+.btn-align{
+  text-align: right;
+}
+.lbl-align{
+  padding-left: 0;
+}
+@media only screen and (max-width: 2000px) and (min-width: 415px) {
+ .L2hide{
+   display: none;
+ }
+}
+@media only screen and (max-width: 1024px) and (min-width: 769px) {
+  .Twidth{
+   width: 54% !important;
+  }
+  .Lwidth{
+    width: 28% !important;
+  }
+}
+@media only screen and (max-width: 768px) and (min-width: 415px) {
+ .Twidth{
+   width: 45% !important;
+ }
+ .Lwidth{
+   width: 40% !important;
+ }
+}
+@media only screen and (max-width: 414px){
+  .L2hide{
+    display: inline;
+  }
+  .L1hide{
+    display: none;
+  }
+  .Lcenter-align{
+    text-align: center;
+  }
+}
+.form {
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.form input {
+   width: 300px;
+   height: 30px;
+   margin: 10px;
+   padding: 5px;
+}
